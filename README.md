@@ -7,6 +7,8 @@ A small HybridAuth portable demo based on [this other demo](http://www.sitepoint
 1. Register a Twitter and a Facebook app.
 2. Create MySQL table.
 3. In the `app/` folder, copy `config-empty.php` to `config.php` and fill your settings.
+4. run the `composer install` command from the dir root to install dependencies.
+5. Test your app.
 
 ##### User table schema
 
