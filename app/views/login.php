@@ -5,8 +5,7 @@
 <body>
 
 <?php
-$identifier_session = !empty( Hybrid_Auth::storage() ) ? Hybrid_Auth::storage()->get( 'user' ) : null;
-if (isset( $identifier_session ) && ! empty( $identifier_session )) {
+if (isset($user)) {
 	echo '<a href="<?=$wroot?>/welcome">Return to Control Panel</a>';
 }
 
